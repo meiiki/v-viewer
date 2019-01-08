@@ -1,37 +1,54 @@
 {
-  "name": "v-viewer",
-  "version": "1.3.2",
-  "description": "Image viewer component for vue, supports rotation, scale, zoom and so on, based on viewer.js",
-  "main": "dist/v-viewer.js",
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development node build/dev-server.js",
-    "release": "webpack --progress --hide-modules --config  ./build/webpack.release.js && cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js",
-    "example": "cross-env NODE_ENV=production node build/build.js",
-    "gh": "node build/deploy",
-    "publish": "npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mirari/v-viewer.git"
-  },
-  "keywords": [
-    "vue",
-    "viewer",
-    "gallery",
-    "picture",
-    "img",
-    "image"
+  "_args": [
+    [
+      "v-viewer@^1.3.1",
+      "E:\\work\\新建文件夹\\sit"
+    ]
   ],
-  "author": "mirari",
-  "license": "MIT",
+  "_from": "v-viewer@>=1.3.1 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "v-viewer@1.3.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/v-viewer",
+  "_nodeVersion": "8.11.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/v-viewer_1.3.2_1546065912220_0.7353567335707099"
+  },
+  "_npmUser": {
+    "email": "clover4@gmail.com",
+    "name": "mirari"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "v-viewer",
+    "raw": "v-viewer@^1.3.1",
+    "rawSpec": "^1.3.1",
+    "scope": null,
+    "spec": ">=1.3.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/v-viewer/-/v-viewer-1.3.2.tgz",
+  "_shasum": "65b9d3e0e4ffee2d2c32b5d2adaedc711f59ec14",
+  "_shrinkwrap": null,
+  "_spec": "v-viewer@^1.3.1",
+  "_where": "E:\\work\\新建文件夹\\sit",
+  "author": {
+    "name": "mirari"
+  },
   "bugs": {
     "url": "https://github.com/mirari/v-viewer/issues"
   },
-  "homepage": "https://github.com/mirari/v-viewer#readme",
-  "engines": {
-    "node": ">=4",
-    "npm": ">=3"
+  "dependencies": {
+    "throttle-debounce": "^2.0.1",
+    "viewerjs": "https://github.com/meiiki/viewerjs/tarball/master"
   },
+  "description": "Image viewer component for vue, supports rotation, scale, zoom and so on, based on viewer.js",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.22.1",
@@ -87,8 +104,50 @@
     "webpack-hot-middleware": "^2.14.0",
     "webpack-merge": "^4.0.0"
   },
-  "dependencies": {
-    "throttle-debounce": "^2.0.1",
-    "viewerjs": "^1.0.0"
-  }
+  "directories": {},
+  "dist": {
+    "fileCount": 11,
+    "integrity": "sha512-nj77X2J1J6zFZ6x0wtoMjM3IOwS4FKFzNMyolfMNxs+QCiPQv5k89ntfay+3vXyJtYO79cYjWPMeOm6ICj6ANw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcJxf4CRA9TVsSAnZWagAAV7EQAINNYSzCThFmnAeRSmxx\n8q8kgHQkWP0rFx3dyrpTyH3ARTOsPsXeIam7cdl+oE+g6JFdcewk1+Q+c8Rg\nvVBKHxABqiADJfCsFl0LtwqJZNvPC/19KK3kV47jjtAuU6T9A71ibCrqjr7J\ndguwJ1F33TgcAEZNM2JhLQbmqffgISIFKY3BxI6jrcvFuYzhohpYWf+Y2cgY\nQj8tIjCikn6AGK34FGHoLxXlSVeNuPHKimJt0fcdhIjT6Pr5YNH8T2SqoAwo\ngHKFGfns1dNSVglxaNQKrtiGxWBa6qrKQjUrW61FSmLW3P8vtgomapOE/OIQ\nJkMhBXwB9auEwM/clc8v1SMbcTsjoa/37i/eiXJMo54txUjtQtr4nQjwVFiK\nQRTodU2fkY/xY8DOEfJKR+rgA7Lz6j5oceg8yGGP2YP5+6H1bMg+YpOySthX\n0QzzMZphqYDT7EbA24B4woqVNuQbOFqr5rOZkXR23BhnT41hM5khorn1BxEq\n7hiiC/qXV+YaNk10y1zDAvHk0vykHgA/wuN637dkPpGRZOUVKDXevgDz+9EL\nIy5hauhZyAQe7Nq6dajMK3t4yoMtavJjtqgr1yK6WsGQjBAtAXt/wro2+upi\nu3hVjN8UQx1e7JM2+0OgP/K5TNEhTX2eF2evuuRsgb71eJL4JPiXUVgiyQ+s\nm5Lt\r\n=KFDI\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "65b9d3e0e4ffee2d2c32b5d2adaedc711f59ec14",
+    "tarball": "https://registry.npmjs.org/v-viewer/-/v-viewer-1.3.2.tgz",
+    "unpackedSize": 460076
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "gitHead": "f71f723e67e1ae9a18c248c2e8c26b59adaefa07",
+  "homepage": "https://github.com/mirari/v-viewer#readme",
+  "keywords": [
+    "vue",
+    "viewer",
+    "gallery",
+    "picture",
+    "img",
+    "image"
+  ],
+  "license": "MIT",
+  "main": "dist/v-viewer.js",
+  "maintainers": [
+    {
+      "email": "clover4@gmail.com",
+      "name": "mirari"
+    }
+  ],
+  "name": "v-viewer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirari/v-viewer.git"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node build/dev-server.js",
+    "example": "cross-env NODE_ENV=production node build/build.js",
+    "gh": "node build/deploy",
+    "publish": "npm publish",
+    "release": "webpack --progress --hide-modules --config  ./build/webpack.release.js && cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js"
+  },
+  "version": "1.3.2"
 }
